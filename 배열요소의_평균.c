@@ -9,7 +9,7 @@ int main(void)
     double cnt;
     cnt = sizeof(ary) / sizeof(*ary);
 
-    printf("¹è¿­ ¿ä¼ÒÀÇ °ª : ");
+    printf("ë°°ì—´ìš”ì†Œ : ");
     for(int i = 0; i < 5; i++)
     {
         sum += *pa;
@@ -17,5 +17,5 @@ int main(void)
         printf("%5.1lf", *pa);
         pa++;
     }
-    printf("\nÆò±Õ : %.2lf\n", avg);
+    printf("\në°°ì—´ìš”ì†Œì˜ í‰ê·  : %.2lf\n", avg);
 }
